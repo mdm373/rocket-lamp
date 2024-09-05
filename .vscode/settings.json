@@ -1,0 +1,20 @@
+{
+  "cmake.environment": {
+      "PICO_SDK_PATH":"../pico-sdk"
+  },
+  "C_Cpp.errorSquiggles": "disabled",
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2 }",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.c": "${capture}.h"
+  },
+  "files.associations": {
+    "colors.h": "c",
+    "clocks.h": "c",
+    "math.h": "c",
+    "pio.h": "c",
+    "gpio.h": "c",
+    "ws2812.pio.h": "c",
+    "stdlib.h": "c"
+  }
+}
