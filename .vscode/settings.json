@@ -1,6 +1,6 @@
 {
   "cmake.environment": {
-      "PICO_SDK_PATH":"../pico-sdk"
+      "PICO_SDK_PATH":"../../pico-sdk"
   },
   "C_Cpp.errorSquiggles": "disabled",
   "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2 }",
@@ -15,6 +15,11 @@
     "pio.h": "c",
     "gpio.h": "c",
     "ws2812.pio.h": "c",
-    "stdlib.h": "c"
+    "stdlib.h": "c",
+    "iobank0.h": "c",
+    "compare": "cpp",
+    "poll_button.h": "c",
+    "rgb_color.h": "c",
+    "stdbool.h": "c"
   }
 }
